@@ -1,0 +1,14 @@
+<div *ngFor="let todo of todos">
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <strong>Title: {{ todo.title }}</strong>
+      <br>
+      <span>{{ todo.id }} - {{ todo.userId }}</span>
+      <div>
+        Completed: {{ todo.completed }}
+      </div>
+    </div>
+  </div>
+
+</div>
